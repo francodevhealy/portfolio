@@ -14,33 +14,46 @@ export default function Experience() {
 
   const jobs: Job[] = [
     {
-      company: 'Techunting America LLC',
-      title: 'Ruby on Rails, Full stack engineer',
-      duration: '2021 - 2024',
+      company: 'NIX',
+      title: 'Python, Django AI engineer',
+      duration: '2023 - 2025',
       responsibilities: [
-        'Developed and maintained scalable web applications using Ruby on Rails, ensuring robust backend architecture and seamless frontend integration.',
-        'Implemented new features, optimized database queries, and improved application performance, resulting in faster load times and higher system reliability.',
-        'Collaborated with product managers and designers to translate business requirements into technical solutions, enhancing user experience and streamlining core workflows.',
+        'Designed and implemented RESTful APIs using Django Rest Framework to handle user authentication, data management, and third-party integrations.',
+        'Optimized database queries with PostgreSQL and Redis caching, improving API response time by over 30%.',
+        'Designed custom AI-driven workflows combining Python scripts, OpenAI API, and Django background tasks.',
+        'Built and trained machine learning models using PyTorch and TensorFlow for predictive analytics and natural language processing tasks.',
+        'Deployed and maintained production environments on AWS with automated CI/CD pipelines using GitHub.'
       ],
     },
     {
-      company: 'Innovation Feel',
-      title: 'RoR, React.js, Next.js developer',
-      duration: '2017 - 2020',
+      company: 'Fullstack Labs',
+      title: 'Sr. React Engineer',
+      duration: '2021 - 2023',
       responsibilities: [
-        'Built websites and applications with Ruby on Rails and React.js.',
-        'Gained in-depth experience in Ruby full-stack development through various projects.',
-        'Worked with mordern JS frameworks such as Next.js and  backend development with node.js frameworks.',
+        'Led the development of a modular React.js / Next.js frontend architecture with reusable components and optimized rendering for large-scale web applications.',
+        'Implemented state management using Redux Toolkit and React Query, improving data consistency and app performance across complex user flows.',
+        'Collaborated with backend teams to integrate RESTful and GraphQL APIs, ensuring efficient communication and smooth UI/UX.',
+        'Designed and built responsive, pixel-perfect UIs using React, TypeScript, and TailwindCSS, ensuring cross-browser and mobile compatibility.'
       ],
     },
     {
-      company: 'RubyGarage',
-      title: 'Junior Ruby on Rails  developer',
+      company: 'Noble Labs',
+      title: 'Full stack developer',
+      duration: '2018 - 2021',
+      responsibilities: [
+        'Developed and maintained full-stack web applications using Python (Django / Flask) for backend APIs and React.js for dynamic, responsive front-end interfaces.',
+        'Designed RESTful endpoints, integrated PostgreSQL databases, and implemented real-time features using WebSocket and React hooks.',
+        'Ensured smooth deployment and performance optimization through AWS / Vercel, Docker, and continuous integration workflows.',
+      ],
+    },
+    {
+      company: 'Plavno',
+      title: 'Junior web developer',
       duration: '2015 - 2017',
       responsibilities: [
-        'Assisted in maintaining and updating existing Ruby on Rails applications.',
-        'Developed small features and components using React and Next.js.',
-        'Participated in code reviews and followed team guidelines to improve coding skills.',
+        'Assisted in developing  responsive web pages using React.js and integrating RESTful APIs developed in Python.',
+        'Collaborated in implementing user authentication, form validation, and CRUD functionality.',
+        'Participated in code reviews, version control with Git, and performance optimization of both frontend and backend.',
       ],
     },
   ];

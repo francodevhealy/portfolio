@@ -79,7 +79,7 @@ export default function Projects() {
     <section id="work" className="py-20 lg:py-32 px-6 lg:px-24 xl:px-32">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold mb-16 flex items-center gap-4" data-testid="heading-projects">
-          <span className="text-primary font-mono text-2xl">03.</span>
+          <span className="text-primary font-mono text-2xl">04.</span>
           <span className="text-foreground">My projects</span>
           <div className="h-px flex-1 bg-border max-w-xs" />
         </h2>

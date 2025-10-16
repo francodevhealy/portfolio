@@ -28,7 +28,7 @@ export default function Contact() {
   return (
     <section id="contact" className="py-20 lg:py-32 px-6 lg:px-24 xl:px-32">
       <div className="max-w-2xl mx-auto text-center">
-        <p className="text-primary font-mono text-base mb-4" data-testid="text-contact-number">04. What's Next?</p>
+        <p className="text-primary font-mono text-base mb-4" data-testid="text-contact-number">05. What's Next?</p>
         <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6" data-testid="heading-contact">Get In Touch</h2>
         
         <div className="flex justify-center gap-4 mb-12">

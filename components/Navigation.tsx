@@ -23,8 +23,9 @@ export default function Navigation({ activeSection = 'hero' }: NavigationProps) 
   const navItems = [
     { id: '01', name: 'About', href: '#about' },
     { id: '02', name: 'Experience', href: '#experience' },
-    { id: '03', name: 'Work', href: '#work' },
-    { id: '04', name: 'Contact', href: '#contact' },
+    { id: '03', name: 'Certifications', href: '#certifications' },
+    { id: '04', name: 'Work', href: '#work' },
+    { id: '05', name: 'Contact', href: '#contact' },
   ];
 
   const scrollToSection = (href: string) => {

@@ -30,11 +30,12 @@ Preferred communication style: Simple, everyday language.
 
 **Page Structure**
 - Single-page application with smooth scrolling sections:
-  - Hero/Introduction
-  - About Me
-  - Experience (tabbed interface)
-  - Projects (featured works with "show more" functionality)
-  - Contact
+  - Hero/Introduction (Section 01)
+  - About Me (Section 01)
+  - Experience (Section 02 - tabbed interface)
+  - Certifications (Section 03 - grid layout with certificate images)
+  - Projects/Work (Section 04 - featured works with "show more" functionality)
+  - Contact (Section 05)
   - Footer
 - Fixed navigation sidebar (desktop) with numbered section links
 - Mobile hamburger menu overlay

@@ -17,19 +17,20 @@ export default function Hero() {
           Hi, my name is
         </h1>
         <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-foreground mb-3" data-testid="text-name">
-          Serhii Tsynailo.
+          Franco Healy.
         </h2>
         <h3 className="text-4xl md:text-5xl lg:text-4xl font-bold text-muted-foreground mb-6" data-testid="text-tagline">
           Full stack engineer.
         </h3>
+        <p className="text-muted-foreground text-lg md:text-xl max-w-2xl leading-relaxed" data-testid="text-intro">
+          Senior full-stack engineer with deep expertise in React / Next.js, Python and AI. 
+        </p>
         <p className="text-muted-foreground text-lg md:text-xl max-w-2xl mb-12 leading-relaxed" data-testid="text-intro">
-          Senior full-stack developer with deep expertise in Ruby on Rails, React, and Next.js. 
           I build fast, scalable web applications with clean architecture and focus on delivering business value through elegant, maintainable code.
         </p>
         <Button 
-          variant="outline" 
           size="lg" 
-          className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+          className="border-primary hover:bg-primary hover:text-primary-foreground"
           onClick={scrollToContact}
           data-testid="button-get-in-touch"
         >

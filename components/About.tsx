@@ -2,18 +2,25 @@ import profileImage from '../attached_assets/generated_images/myphoto.jpeg';
 
 export default function About() {
   const skills = [
-    'Ruby',
-    'Ruby on Rails',
+    'Python',
     'JavaScript',
     'TypeScript',
+    'Django',
+    'Flask',
     'React',
     'Next.js',
     'Node.js',
+    'OpenAI / GPT',
+    'LLM',
+    "Langchain",
+    "Pytorch",
     'PostgreSQL',
     'MongoDB',
+    'MySQL',
     'Tailwind CSS',
     'GraphQL',
     'AWS',
+    'Heroku',
     'Vercel'
   ];
 
@@ -29,11 +36,11 @@ export default function About() {
         <div className="grid md:grid-cols-[2fr,1fr] gap-12 items-start">
           <div className="space-y-4 text-muted-foreground" data-testid="text-about-content">
             <p>
-              Hello! I'm Serhii Tsynailo, a software engineer based in Varash, Ukraine. I’m a senior full-stack engineer who loves crafting smooth, high-performance apps using Ruby on Rails, React, and Next.js. 
+              Hello! I'm Franco Healy, a software engineer based Gulfport, Mississippi. I’m a senior full-stack engineer who loves crafting smooth, high-performance apps using React, Next.js, Python and AI. 
               I care about writing clean code, solving complex problems, and turning ideas into products people actually enjoy.
             </p>
             <p>
-              Through my experience as a Ruby on Rails engineer across multiple companies, I have gained deep expertise in both backend and frontend development.
+             With years of experience in full stack development with Python and JavaScript frameworks, I've contributed to several projects with Python and modern JavaScript frameworks including SaaS, Health Care, E commerce and AI service projects.
             </p>
             <p>
               Here are a few technologies I've been working with a lot:
