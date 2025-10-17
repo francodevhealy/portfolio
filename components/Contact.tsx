@@ -8,19 +8,19 @@ export default function Contact() {
     { 
       name: 'GitHub', 
       icon: Github, 
-      url: 'https://github.com/serhiitsynailo',
+      url: 'https://github.com/francodevhealy',
       testId: 'link-contact-github'
     },
     { 
       name: 'LinkedIn', 
       icon: Linkedin, 
-      url: 'https://linkedin.com',
+      url: 'https://www.linkedin.com/in/franco-healy-38461211/',
       testId: 'link-contact-linkedin'
     },
     { 
       name: 'Email', 
       icon: Mail, 
-      url: 'mailto:tsynailoserhii@gmail.com',
+      url: 'mailto:francohealy076@gmail.com',
       testId: 'link-contact-email'
     },
   ];

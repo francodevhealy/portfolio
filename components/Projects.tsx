@@ -3,12 +3,12 @@
 import { useState } from 'react';
 import { ExternalLink, Github, Folder } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import householdImage from '../attached_assets/generated_images/bosch.png';
-import edroneImage from '../attached_assets/generated_images/edrone.png';
-import uptimeMonitorImage from '../attached_assets/generated_images/pulsetic.png';
-import washingMachinImage from '../attached_assets/generated_images/Schulthess-Maschinen.png';
-import testCaseImage from '../attached_assets/generated_images/testlodge.png';
-import austinMolakImage from '../attached_assets/generated_images/parkplace.png';
+import harnessAI from '../attached_assets/generated_images/harnessAI.png';
+import dhrHealthImage from '../attached_assets/generated_images/dhrhealth.png';
+import glassshopImage from '../attached_assets/generated_images/glass_shop.png';
+import farfallaImage from '../attached_assets/generated_images/Farfalla-Home.png';
+import roomImage from '../attached_assets/generated_images/Standard-Double-Room.png';
+import insuraImage from '../attached_assets/generated_images/insurance_blog.png';
 
 interface Project {
   title: string;
@@ -24,51 +24,51 @@ export default function Projects() {
 
   const projects: Project[] = [
     {
-      title: 'Household goods sales Platform',
-      description: 'A web e commerce for household goods. Joined to dev team and played the full stack developer role with Ruby on Rails and React.js',
-      tech: ['Ruby on Rails', 'React', 'TypeScript', 'PostgreSQL', 'Git'],
-      external: 'https://www.bosch-home.nl',
-      image: householdImage.src,
+      title: 'AI Automation Service',
+      description: 'AI SaaS platform for the Devops and Automation . Joined to dev team and played the AI, Python developer role with Python, Django, Pytorch and LLM',
+      tech: ['Python', 'React', 'TypeScript', 'Django', 'Pytorch', 'LLM', 'Git'],
+      external: 'https://www.harness.io',
+      image: harnessAI.src,
       featured: true,
     },
     {
-      title: 'Marketing Platform',
-      description: 'Website Marketing automation platform. Worked as Ruby on Rails, Next.js full stack developer with dev team',
-      tech: ['Ruby on Rails', 'Next.js', 'TypeScript', 'PostgreSQL', 'TailwindCSS', "Payment Gateway"],
-      external: 'https://edrone.me',
-      image: edroneImage.src,
+      title: 'HealthCare Platform',
+      description: 'HealthCare Platform to find care services. Worked as Python, Django, React.js full stack developer with dev team',
+      tech: ['Python', 'Django', 'React.js', 'TypeScript', 'PostgreSQL', 'TailwindCSS', "GraphQL"],
+      external: 'https://www.dhrhealth.com',
+      image: dhrHealthImage.src,
       featured: true,
     },
     {
-      title: 'Website monitoring Platform',
-      description: 'Website uptime platform. Joined as backend developer to dev team and built APIs with node.js',
-      tech: ['Node.js', 'MongoDB', 'Express.js', 'Backend development'],
-      external: 'https://pulsetic.com',
-      image: uptimeMonitorImage.src,
+      title: 'Glasses Shop',
+      description: 'Glasses and SunGlasses online E Shop. Joined as React / Next.js engineer to dev team and built frotend',
+      tech: ['React.js', 'Next.js', 'TypeScript', 'TailwindCSS', 'Redux'],
+      external: 'https://www.pearle.at',
+      image: glassshopImage.src,
       featured: true,
     },
     {
-      title: 'Real Estate Platform',
-      description: 'A Real Estate platform in Austin, US. Built Real Esate frontend with Next.js, Tailwind CSS.',
-      tech: ['Next.js', 'TypeScript', 'Tailwidnd CSS','SCSS'],
-      external: 'https://www.austinhomolka.com',
-      image: austinMolakImage.src,
+      title: 'Insurance Blog Platform',
+      description: 'A blog posting platform of insurance financial topics in US. Built with Python, Django framework.',
+      tech: ['Python', 'Django', 'SEO','Social API'],
+      external: 'https://insureusafinance.blogspot.com',
+      image: insuraImage.src,
       featured: true,
     },
     {
-      title: 'Testcase management Platform',
-      description: 'A Testcase management platform, Worked as backend developer with team and managed the database and implement the case management logic',
-      tech: ['Ruby on Rails', 'PostgreSQL', 'Git'],
-      image: testCaseImage.src,
-      external: "https://www.testlodge.com",
+      title: 'Kloster-schaan - Booking Platform',
+      description: 'A hotel booking platform, Worked as frontend developer with dev team and built frontend UI and manage the state',
+      tech: ['TypeScript', 'Next.js', 'TailwindCSS', 'Redux','Git'],
+      image: roomImage.src,
+      external: "https://www.kloster-schaan.net",
       featured: true,
     },
     {
-      title: 'Washing Machine Sales Platform',
-      description: 'A middle-scale platform to sell washing machines. Joined as backend developer to the dev team and built RESTful API',
-      tech: ['Ruby on Rails', 'Backend Development', 'RESTful API'],
-      external: 'https://www.schulthess.ch',
-      image: washingMachinImage.src,
+      title: 'Farfalla - Cosmetic Goods sales E Commerce',
+      description: 'A middle-scale e commerce platform for cosmetic goods. Joined as backend developer to the dev team and built RESTful API',
+      tech: ['Python', 'Django', 'Backend Development', 'RESTful API'],
+      external: 'https://www.farfalla.ch',
+      image: farfallaImage.src,
       featured: true,
     },
   ];

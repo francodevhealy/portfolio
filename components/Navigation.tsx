@@ -113,21 +113,21 @@ export default function Navigation({ activeSection = 'hero' }: NavigationProps) 
       )}
 
       <div className="hidden lg:flex fixed left-12 bottom-0 flex-col items-center gap-6 z-10">
-        <a href="https://github.com/serhiitsynailo" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary hover:-translate-y-1 transition-all" data-testid="link-github">
+        <a href="https://github.com/francodevhealy" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary hover:-translate-y-1 transition-all" data-testid="link-github">
           <Github className="h-5 w-5" />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary hover:-translate-y-1 transition-all" data-testid="link-linkedin">
+        <a href="https://www.linkedin.com/in/franco-healy-38461211/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary hover:-translate-y-1 transition-all" data-testid="link-linkedin">
           <Linkedin className="h-5 w-5" />
         </a>
-        <a href="mailto:tsynailoserhii@gmail.com" className="text-muted-foreground hover:text-primary hover:-translate-y-1 transition-all" data-testid="link-email-side">
+        <a href="mailto:francohealy076@gmail.com" className="text-muted-foreground hover:text-primary hover:-translate-y-1 transition-all" data-testid="link-email-side">
           <Mail className="h-5 w-5" />
         </a>
         <div className="w-px h-24 bg-muted-foreground/30" />
       </div>
 
       <div className="hidden lg:flex fixed right-12 bottom-0 flex-col items-center gap-6 z-10">
-        <a href="mailto:tsynailoserhii@gmail.com" className="text-muted-foreground hover:text-primary hover:-translate-y-1 transition-all [writing-mode:vertical-lr] text-sm tracking-wider font-mono" data-testid="link-email-text">
-          tsynailoserhii@gmail.com
+        <a href="mailto:francohealy076@gmail.com" className="text-muted-foreground hover:text-primary hover:-translate-y-1 transition-all [writing-mode:vertical-lr] text-sm tracking-wider font-mono" data-testid="link-email-text">
+          francohealy076@gmail.com
         </a>
         <div className="w-px h-24 bg-muted-foreground/30" />
       </div>
