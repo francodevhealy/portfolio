@@ -8,12 +8,12 @@ import {
   DialogHeader,
   DialogTitle,
 } from '@/components/ui/dialog';
-
+import { ExternalLink } from 'lucide-react';
 interface Certification {
   name: string;
   issuer: string;
   date: string;
-  description: string;
+  link?: string;
   image: string;
   credentialId?: string;
 }
@@ -26,22 +26,21 @@ export default function Certifications() {
       name: 'Generative AI for Business with AWS',
       issuer: 'Greate Learning',
       date: 'February 2025',
-      description: 'Validated expertise in developing, deploying, and debugging cloud-based applications using AWS. Demonstrated proficiency in core AWS services, best practices, and the AWS shared responsibility model.',
+      link: 'https://www.mygreatlearning.com/certificate/UFHJMYXA',
       image: '/Greate _Learning.png',
+    },
+    {
+      name: 'Appian Certified Senior Developer',
+      issuer: 'Meta (Facebook)',
+      date: 'November 2024',
+      link: 'https://community.appian.com/members/francoh7128?badge=cert&now=638961370928506574',
+      image: '/cert-react.png',
     },
     {
       name: 'MIT Machine Learning program',
       issuer: 'MIT',
       date: 'Apirl 2024',
-      description: 'Certified proficiency in MongoDB development including data modeling, indexing strategies, aggregation framework, and performance optimization for NoSQL databases.',
       image: '/MIT_certificate.png',
-    },
-    {
-      name: 'Meta React Advanced Certification',
-      issuer: 'Meta (Facebook)',
-      date: 'January 2024',
-      description: 'Advanced React development certification covering modern React patterns, hooks, performance optimization, state management, and building production-ready React applications.',
-      image: '/cert-react.png',
     }
   ];
 
@@ -58,11 +57,10 @@ export default function Certifications() {
           {certifications.map((cert, index) => (
             <div 
               key={index}
-              onClick={() => setSelectedCert(cert)}
               className="group relative bg-card border border-border rounded-lg overflow-hidden hover:border-primary/50 transition-all duration-300 hover:-translate-y-1 cursor-pointer"
             >
               {/* Certificate Image */}
-              <div className="relative h-48 bg-accent/20 overflow-hidden">
+              <div onClick={() => setSelectedCert(cert)} className="relative h-48 bg-accent/20 overflow-hidden">
                 <Image
                   src={cert.image}
                   alt={`${cert.name} certificate`}
@@ -80,7 +78,9 @@ export default function Certifications() {
                   {cert.issuer} • {cert.date}
                 </p>
                 <p className="text-muted-foreground text-sm leading-relaxed mb-3">
-                  {cert.description}
+                    { cert.link ? <a href={cert.link} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors" data-testid={`link-external-${index}`}>
+                      <ExternalLink className="h-5 w-5" />
+                    </a> : ''}
                 </p>
                 {cert.credentialId && (
                   <p className="text-xs font-mono text-muted-foreground/70">
